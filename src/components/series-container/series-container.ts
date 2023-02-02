@@ -23,7 +23,7 @@ export class SeriesContainer extends Component {
 
   render(place: globalThis.InsertPosition) {
     super.render(place);
-    new PendingSeries('.section-title');
     new WatchedSeries('.section-title');
+    new PendingSeries('.section-title');
   }
 }

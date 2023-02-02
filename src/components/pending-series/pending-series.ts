@@ -9,7 +9,7 @@ export class PendingSeries extends Component {
   constructor(public selector: string) {
     super();
     this.template = this.createTemplate();
-    this.render('beforebegin');
+    this.render('afterend');
   }
 
   private createTemplate() {
